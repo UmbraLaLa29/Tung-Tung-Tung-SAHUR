@@ -3,61 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <title>Hello Neighbor – wszystkie części</title>
+
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       background: #0f1220;
-      color: white;
-      margin: 0;
-      padding: 20px;
+      color: #ffffff;
     }
-    h1 {
+
+    header {
+      background: #1c1f3a;
+      padding: 20px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
       color: #ffcc00;
     }
+
+    nav {
+      background: #14172b;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #00c3ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
     .game {
       background: #1c1f3a;
-      padding: 15px;
-      margin: 20px 0;
-      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 12px;
     }
+
     .game h2 {
       color: #00c3ff;
     }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #14172b;
+      color: #aaa;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
 
-<h1>🏠 Hello Neighbor – wszystkie części</h1>
+<header>
+  <h1>🏠 Hello Neighbor – wszystkie części</h1>
+  <p>Opis całej serii gier</p>
+</header>
 
-<div class="game">
-  <h2>Hello Neighbor</h2>
-  <p>
-    Gra skradankowa, w której gracz próbuje dostać się do piwnicy sąsiada.
-    Sztuczna inteligencja przeciwnika uczy się zachowań gracza.
-  </p>
+<nav>
+  <a href="#hn1">Hello Neighbor</a>
+  <a href="#hns">Hide and Seek</a>
+  <a href="#hn2">Hello Neighbor 2</a>
+  <a href="#he">Hello Engineer</a>
+</nav>
+
+<div class="container">
+
+  <div class="game" id="hn1">
+    <h2>Hello Neighbor</h2>
+    <p>
+      Pierwsza część serii. Gracz próbuje zakraść się do domu tajemniczego sąsiada,
+      aby odkryć, co ukrywa w swojej piwnicy. Sztuczna inteligencja uczy się zachowań gracza
+      i zastawia pułapki.
+    </p>
+  </div>
+
+  <div class="game" id="hns">
+    <h2>Hello Neighbor: Hide and Seek</h2>
+    <p>
+      Prequel serii. Opowiada tragiczną historię dzieciństwa sąsiada i jego rodziny.
+      Gra skupia się bardziej na fabule i emocjach.
+    </p>
+  </div>
+
+  <div class="game" id="hn2">
+    <h2>Hello Neighbor 2</h2>
+    <p>
+      Kontynuacja gry z otwartym światem. Gracz eksploruje miasto Raven Brooks,
+      a każdy sąsiad posiada własną sztuczną inteligencję.
+    </p>
+  </div>
+
+  <div class="game" id="he">
+    <h2>Hello Engineer</h2>
+    <p>
+      Spin-off serii. Gra skupia się na budowaniu maszyn, pojazdów i rozwiązywaniu
+      zagadek technicznych w świecie Hello Neighbor.
+    </p>
+  </div>
+
 </div>
 
-<div class="game">
-  <h2>Hello Neighbor: Hide and Seek</h2>
-  <p>
-    Prequel serii. Opowiada historię dzieciństwa sąsiada i jego rodzinnej tragedii.
-  </p>
-</div>
-
-<div class="game">
-  <h2>Hello Neighbor 2</h2>
-  <p>
-    Otwarte miasto Raven Brooks. Wielu sąsiadów z własną sztuczną inteligencją.
-  </p>
-</div>
-
-<div class="game">
-  <h2>Hello Engineer</h2>
-  <p>
-    Spin-off nastawiony na budowanie maszyn i pojazdów w świecie Hello Neighbor.
-  </p>
-</div>
+<footer>
+  © 2026 | Strona fanowska Hello Neighbor
+</footer>
 
 </body>
 </html>
